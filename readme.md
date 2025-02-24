@@ -32,6 +32,7 @@
 2 | Jane Doe    | 12:00-16:00 (или "Нерабочий день")  
 ```
 Код:
+<?php
 $dayOfWeek = date('N');
     
 function getSchedule($name) {
@@ -50,6 +51,7 @@ echo "<tr><th>№</th><th>Фамилия Имя</th><th>График работ�
 echo "<tr><td>1</td><td>John Styles</td><td>" . getSchedule("John Styles") . "</td></tr>";
 echo "<tr><td>2</td><td>Jane Doe</td><td>" . getSchedule("Jane Doe") . "</td></tr>";
 echo "</table>";
+?>
 
 ### Работа с циклами  
 Вывод шагов работы циклов `for`, `while`, `do-while` в браузере:  
@@ -60,6 +62,7 @@ echo "</table>";
 End of the loop: a = 60, b = 30  
 ```
 Код:
+<?php
 $a = 0;
 $b = 0;
 
@@ -99,6 +102,7 @@ do {
 } while ($i <= 5);
 
 echo "End of the loop: a = $a, b = $b";
+?>
 
 ## 5. Ответы на контрольные вопросы  
 
