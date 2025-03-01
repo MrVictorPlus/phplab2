@@ -9,7 +9,7 @@ for ($i = 0; $i <= 5; $i++) {
     echo "Шаг $i: a = $a, b = $b<br>";
 }
 
-echo "End of the loop: a = $a, b = $b<br><br>";
+echo "Конец цикла: a = $a, b = $b<br><br>";
 
 echo "<h3>Цикл while</h3>";
 $a = 0;
@@ -23,7 +23,7 @@ while ($i <= 5) {
     $i++;
 }
 
-echo "End of the loop: a = $a, b = $b<br><br>";
+echo "Конец цикла: a = $a, b = $b<br><br>";
 
 echo "<h3>Цикл do-while</h3>";
 $a = 0;
@@ -37,6 +37,6 @@ do {
     $i++;
 } while ($i <= 5);
 
-echo "End of the loop: a = $a, b = $b";
+echo "Конец цикла: a = $a, b = $b";
 
 ?>
